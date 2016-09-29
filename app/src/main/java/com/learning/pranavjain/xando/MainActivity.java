@@ -373,6 +373,7 @@ public class MainActivity extends AppCompatActivity {
             }
         } else if (gameOver == 9) {
             String draw = "Draw , what a game!";
+            winner.setVisibility(View.VISIBLE);
             setName.setText(draw);
         }
 
